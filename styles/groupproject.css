@@ -1,0 +1,15 @@
+html, body {
+	margin: 0px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav {
+	height: 200px;
+	background-color: #7ED321;
+	border: 1px solid #7ED321;
+}
+ 
