@@ -5,6 +5,7 @@ html, body {
 nav ul li {
 	list-style: none;
 	display: inline-block;
+  text-align: center;
 }
 
 nav {
