@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="contact.css">
-
+		<link rel="stylesheet" type="text/css" href="styles/contact.css">
 	</head>
-
 		
 	<body>
+		<nav>
+			<img src="images/logo.png" id="logo">	
+			<ul class="top-nav">
+				<li>
+				<a href="groupproject.html">HOME</a>	
+				</li>	
+				<li>
+				<a href="about.html">ABOUT</a>
+				</li>
+				<li>
+				<a href="contact.html">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+
+		<iframe id="maplocation" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.45532067681!2d-74.00877438456754!3d40.70799207933223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a17e1acd123%3A0x7b2c1ea2703584f9!2s90+John+St%2C+New+York%2C+NY+10038!5e0!3m2!1sen!2sus!4v1468813635434" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		<div id="second-header">
+			<div id="column1">
+				<h3>Get In Touch!</h3>
+				<span>(631)721-5512</span>
+				<span>info@eatsonreserve.org</span>
+			</div>
+			<div id="column2">
+				<h3>HQ Address</h3>
+				<span>90 John Street</span>
+				<span>New York, New York 10038</span>
+			</div>
+		</div>
+
+		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+			<div class="row">
+				<label for="name">Name:</label><br />
+				<input id="name" class="input" name="name" type="text" value="" size="100" /><br />
+			</div>
+			<div class="row">
+				<label for="email">Email:</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="100" /><br />
+			</div>
+			<div class="row">
+				<label for="phonenumber">Number:</label><br />
+				<input id="number" class="input" name="number" type="text" value="" size="100" /><br />
+			</div>
+			<div class="row">
+				<label for="foodtype">Food Type:</label><br />
+				<select name="foodtype" width="100">
+				  <option value="Catered Food Leftovers">Catered Food Leftovers</option>
+				  <option value="Home Made">Home Made</option>
+				  <option value="New Untouched">New & Untouched</option>
+				  <option value="Other">Other</option>
+				</select><br />
+			</div>
+			<div class="row">
+				<label for="message">Message:</label><br />
+				<textarea id="message" class="input" name="message" rows="7" cols="98"></textarea><br />
+			</div>
+			<input id="submit_button" type="submit" value="Submit" />
+		</form>						
 	</body>
 </html>
