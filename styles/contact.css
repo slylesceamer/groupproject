@@ -41,7 +41,7 @@ ul.top-nav li a:hover {
 	display: inline-block;
 	background-size: 165px;
 	height: 150px;
-	width: 200;
+	width: 175px;
 	background-size: 165px;
 	margin-top: 15px;
 	margin-left: 15px;
@@ -49,42 +49,54 @@ ul.top-nav li a:hover {
 
 #maplocation {
 	float: left;
+	width: 40%;
 }
 
 #second-header {
 	display: inline-block;
 	margin: 0 auto;
+	width: 60%;
 	height: 150px;
-	width: 838px;
 	background-color: beige;
 }
 
-#column1{
-	margin-top: 20px;
-	margin-left: 100px;
-	margin-right: 200px;
+.column{
+	width: 25%;
+	padding-left: 12%;
 	float: left;
-}
+} 
 
-#column2 {
-	margin-top: 20px;
-	margin-right: 200px;
-}  
-
-#column1 span {
+.column span {
 	display: block;
 }
 
-#column2 h3, span {
-	display: inline-block;
+.column h3, span {
+	display: block;
 }
 
-#contact_form {
+.label {
+	display: block;
+}
+
+#container {
 	display: inline-block;	
-	margin-left: 100px;
-	margin-top: 50px;
+	padding-left: 150px;
+	padding-top: 20px;
 }
 
 .row {
 	padding-top: 20px;
+}
+
+#foodtype {
+	width: 305%;
+}
+
+.input {
+	width: 300%;
+	height: 20px;
+}
+
+#message {
+	height: 100px;
 }
