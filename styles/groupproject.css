@@ -114,7 +114,7 @@ h1 {
 	padding: 25px;
 	box-sizing: border-box;
 	background-image: url("../images/food2.jpg");
-	background-size: contain;
+	background-size: cover;
 	border: 1px solid;
 }
 
@@ -126,4 +126,8 @@ h1 {
 	box-sizing: border-box;
 	background-color: #7ED321;
 	border: 1px solid;
+}
+
+p.lorem {
+	text-indent: 4em;
 }
